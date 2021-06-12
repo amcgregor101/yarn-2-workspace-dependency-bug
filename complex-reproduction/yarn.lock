@@ -883,13 +883,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node12@npm:^1.0.8":
-  version: 1.0.8
-  resolution: "@tsconfig/node12@npm:1.0.8"
-  checksum: cd625813b6299b2431cadc4cc0afe8a44388ea9045e8e1d6fe13a9f22080ac7b390dc7a684190298c9a78f48691e05babe0dc00af991ccf8f4924c8c0be7a4fe
-  languageName: node
-  linkType: hard
-
 "@types/babel__core@npm:^7.0.0, @types/babel__core@npm:^7.1.14, @types/babel__core@npm:^7.1.7":
   version: 7.1.14
   resolution: "@types/babel__core@npm:7.1.14"
@@ -2328,7 +2321,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "foobar_authentication@workspace:lib/authentication"
   dependencies:
-    "@tsconfig/node12": ^1.0.8
     "@types/jest": ^26.0.23
     jest: ^27.0.4
     ts-jest: ^27.0.3
