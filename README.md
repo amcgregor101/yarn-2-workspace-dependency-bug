@@ -1,0 +1,1 @@
+# yarn-2-workspace-dependency-bug
