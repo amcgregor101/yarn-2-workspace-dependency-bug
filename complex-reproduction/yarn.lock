@@ -7805,15 +7805,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"foobar_infra@workspace:infra":
-  version: 0.0.0-use.local
-  resolution: "foobar_infra@workspace:infra"
-  dependencies:
-    "@types/node": ^14.14.26
-    mkdirp: ^1.0.4
-  languageName: unknown
-  linkType: soft
-
 "foobar_operation_handle@workspace:*, foobar_operation_handle@workspace:lib/operation_handle":
   version: 0.0.0-use.local
   resolution: "foobar_operation_handle@workspace:lib/operation_handle"
