@@ -1,7 +1,6 @@
 {
   "name": "foobar",
   "version": "1.0.0",
-  "author": "Logan Grier <lagrier@uwaterloo.ca>",
   "workspaces": [
     "backend/static_website/*",
     "lib/*"
