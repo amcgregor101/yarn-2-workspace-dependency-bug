@@ -2336,14 +2336,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"foobar_utilities@workspace:lib/utilities":
-  version: 0.0.0-use.local
-  resolution: "foobar_utilities@workspace:lib/utilities"
-  dependencies:
-    jest: ^27.0.0
-  languageName: unknown
-  linkType: soft
-
 "for-in@npm:^1.0.2":
   version: 1.0.2
   resolution: "for-in@npm:1.0.2"
@@ -3959,7 +3951,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^27.0.0, jest@npm:^27.0.4":
+"jest@npm:^27.0.4":
   version: 27.0.4
   resolution: "jest@npm:27.0.4"
   dependencies:
