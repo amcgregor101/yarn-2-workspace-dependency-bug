@@ -2915,7 +2915,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.8.4":
   version: 7.14.5
   resolution: "@babel/runtime@npm:7.14.5"
   dependencies:
@@ -7789,22 +7789,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"foobar_i18n@workspace:lib/i18n":
-  version: 0.0.0-use.local
-  resolution: "foobar_i18n@workspace:lib/i18n"
-  dependencies:
-    "@tsconfig/node12": ^1.0.8
-    "@types/jest": ^26.0.23
-    "@types/typescript": ^2.0.0
-    foobar_utilities: "workspace:*"
-    i18next: ^19.9.2
-    jest: ^27.0.1
-    node-notifier: ^9.0.0
-    ts-jest: ^27.0.0
-    typescript: ^4.2.4
-  languageName: unknown
-  linkType: soft
-
 "foobar_operation_handle@workspace:*, foobar_operation_handle@workspace:lib/operation_handle":
   version: 0.0.0-use.local
   resolution: "foobar_operation_handle@workspace:lib/operation_handle"
@@ -8426,15 +8410,6 @@ fsevents@^1.0.0:
   dependencies:
     ms: ^2.0.0
   checksum: 4a08769434132a229a6153e77c869a9fe7132dc003d90119d54958e7b75feb65a3c4eca19fb18921568878ac455b6f399013279ad33248d94bd61a25def1fdda
-  languageName: node
-  linkType: hard
-
-"i18next@npm:^19.9.2":
-  version: 19.9.2
-  resolution: "i18next@npm:19.9.2"
-  dependencies:
-    "@babel/runtime": ^7.12.0
-  checksum: 2570489cf92fdbc6c9c6e937deb23725afa1e2af3376f3c1d4880c4cacfc7b79e6136c62527dbc23052a206781f056a5800cda1f7379199a721623cd45e8dd6d
   languageName: node
   linkType: hard
 
