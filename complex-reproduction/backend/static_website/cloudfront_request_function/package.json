@@ -1,0 +1,35 @@
+{
+  "name": "foobar_static_website_cloudfront_request_function",
+  "version": "1.0.0",
+  "dependencies": {
+    "foobar_constants": "workspace:*",
+    "source-map-support": "^0.5.19"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-typescript": "^7.13.0",
+    "@tsconfig/node12": "^1.0.8",
+    "@types/aws-lambda": "^8.10.76",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^14.14.26",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "fast-check": "^2.14.0",
+    "jest": "^26.6.3",
+    "source-map-loader": "^3.0.0",
+    "ts-jest": "^26.5.6",
+    "ts-loader": "^9.2.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "scripts": {
+    "build": "tsc ../../../lib/constants/src/Urls.ts --outDir bin/ && yarn ts-node src/index.ts && rm bin/Urls.js",
+    "test": "jest",
+    "watch": "tsc -w --preserveWatchOutput"
+  }
+}
