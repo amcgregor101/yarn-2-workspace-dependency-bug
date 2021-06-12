@@ -6155,7 +6155,6 @@ __metadata:
   resolution: "foobar_utilities@workspace:lib/utilities"
   dependencies:
     jest: ^27.0.0
-    typescript: ^4.2.4
   languageName: unknown
   linkType: soft
 
