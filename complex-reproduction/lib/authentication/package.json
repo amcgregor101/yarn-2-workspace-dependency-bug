@@ -1,19 +1,8 @@
 {
   "name": "foobar_authentication",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.ts",
-  "files": [
-    "src/**/*"
-  ],
   "scripts": {
-    "build": "rm -rf bin && tsc",
     "test": "jest"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "foobar_utilities": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/node12": "^1.0.8",

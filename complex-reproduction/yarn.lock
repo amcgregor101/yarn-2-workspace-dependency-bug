@@ -2330,7 +2330,6 @@ __metadata:
   dependencies:
     "@tsconfig/node12": ^1.0.8
     "@types/jest": ^26.0.23
-    foobar_utilities: "workspace:*"
     jest: ^27.0.4
     ts-jest: ^27.0.3
     typescript: ^4.2.4
@@ -2345,7 +2344,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"foobar_utilities@workspace:*, foobar_utilities@workspace:lib/utilities":
+"foobar_utilities@workspace:lib/utilities":
   version: 0.0.0-use.local
   resolution: "foobar_utilities@workspace:lib/utilities"
   dependencies:
