@@ -20,7 +20,6 @@
     "aws-amplify": "^4.1.0",
     "aws-sdk": "^2.926.0",
     "foobar_constants": "workspace:*",
-    "foobar_operation_handle": "workspace:*",
     "foobar_utilities": "workspace:*",
     "react": "17.0.1",
     "react-native": "^0.64.2",

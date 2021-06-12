@@ -3945,15 +3945,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/typescript@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@types/typescript@npm:2.0.0"
-  dependencies:
-    typescript: "*"
-  checksum: 9400376e640aa2903537e7a18ca2eefc5d19e46611d9e67ee0268715d147de0eac94250341acaafe48d424ae99319c52381e42383da889e04003a2cc2d8cf39f
-  languageName: node
-  linkType: hard
-
 "@types/yargs-parser@npm:*":
   version: 20.2.0
   resolution: "@types/yargs-parser@npm:20.2.0"
@@ -6622,7 +6613,6 @@ __metadata:
     aws-sdk: ^2.926.0
     babel-jest: ^27.0.2
     foobar_constants: "workspace:*"
-    foobar_operation_handle: "workspace:*"
     foobar_utilities: "workspace:*"
     jest: ^27.0.4
     react: 17.0.1
@@ -6640,23 +6630,6 @@ __metadata:
   dependencies:
     "@tsconfig/node12": ^1.0.8
     "@tsconfig/node14": ^1.0.0
-    typescript: ^4.2.4
-  languageName: unknown
-  linkType: soft
-
-"foobar_operation_handle@workspace:*, foobar_operation_handle@workspace:lib/operation_handle":
-  version: 0.0.0-use.local
-  resolution: "foobar_operation_handle@workspace:lib/operation_handle"
-  dependencies:
-    "@tsconfig/node12": ^1.0.8
-    "@types/jest": ^26.0.23
-    "@types/react": ^17.0.8
-    "@types/typescript": ^2.0.0
-    foobar_utilities: "workspace:*"
-    jest: ^27.0.1
-    node-notifier: ^9.0.0
-    react: ^17.0.2
-    ts-jest: ^27.0.0
     typescript: ^4.2.4
   languageName: unknown
   linkType: soft
@@ -8754,7 +8727,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^27.0.0, jest@npm:^27.0.1, jest@npm:^27.0.4":
+"jest@npm:^27.0.0, jest@npm:^27.0.4":
   version: 27.0.4
   resolution: "jest@npm:27.0.4"
   dependencies:
@@ -9973,20 +9946,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-notifier@npm:^9.0.0":
-  version: 9.0.1
-  resolution: "node-notifier@npm:9.0.1"
-  dependencies:
-    growly: ^1.3.0
-    is-wsl: ^2.2.0
-    semver: ^7.3.2
-    shellwords: ^0.1.1
-    uuid: ^8.3.0
-    which: ^2.0.2
-  checksum: 7396a2bd7c28a005cc7e192d3c9f690b59eaa5cfcfaa1aa546d94bca22be873c03472dbf74165bc5d38e1e7be9380de1cb5ecce48bd62f6506632f482a5bc141
-  languageName: node
-  linkType: hard
-
 "node-releases@npm:^1.1.71":
   version: 1.1.73
   resolution: "node-releases@npm:1.1.73"
@@ -10807,16 +10766,6 @@ __metadata:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
   checksum: a76d86ec973eb4b25a46071ac7f974adfd66ed89ad1db63043be1d976ec25417520a210e6d724b0ad937422b706afcf9962cedda9e92125992a8c0e8a95f2051
-  languageName: node
-  linkType: hard
-
-"react@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: 7d0dfebafe1d297503157abb2e9acdb49852185deb8700c16f4a6faad87642f84903ab18cfc16f40b9a0dfe97540f99834982ee953e6d48b39c41608dc3e4b29
   languageName: node
   linkType: hard
 
@@ -12338,7 +12287,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"typescript@*, typescript@^4.2.4, typescript@^4.3.2":
+"typescript@^4.2.4, typescript@^4.3.2":
   version: 4.3.2
   resolution: "typescript@npm:4.3.2"
   bin:
@@ -12348,7 +12297,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@*#builtin<compat/typescript>, typescript@patch:typescript@^4.2.4#builtin<compat/typescript>, typescript@patch:typescript@^4.3.2#builtin<compat/typescript>":
+"typescript@patch:typescript@^4.2.4#builtin<compat/typescript>, typescript@patch:typescript@^4.3.2#builtin<compat/typescript>":
   version: 4.3.2
   resolution: "typescript@patch:typescript@npm%3A4.3.2#builtin<compat/typescript>::version=4.3.2&hash=ddfc1b"
   bin:
