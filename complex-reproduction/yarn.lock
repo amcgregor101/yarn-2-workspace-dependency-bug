@@ -3777,7 +3777,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/aws-lambda@npm:^8.10.72, @types/aws-lambda@npm:^8.10.76":
+"@types/aws-lambda@npm:^8.10.76":
   version: 8.10.77
   resolution: "@types/aws-lambda@npm:8.10.77"
   checksum: c810f6dec21ebd2c0910a3d5a0101c7f0e1965c99b1cba34e9af063b7cda4d91e702a0dd509b1dbc47589907474368e2eed45a4f4f99aef957c553236c609578
@@ -7845,19 +7845,6 @@ __metadata:
     jest: ^27.0.0
     ts-jest: ^27.0.0
     typescript: ^4.2.4
-  languageName: unknown
-  linkType: soft
-
-"foobar_user_managment_custom_cognito_message@workspace:backend/user_management/lambda/custom_cognito_message":
-  version: 0.0.0-use.local
-  resolution: "foobar_user_managment_custom_cognito_message@workspace:backend/user_management/lambda/custom_cognito_message"
-  dependencies:
-    "@tsconfig/node12": ^1.0.8
-    "@types/aws-lambda": ^8.10.72
-    "@types/node": ^14.14.26
-    foobar_constants: "workspace:*"
-    source-map-support: ^0.5.19
-    typescript: ^4.1.5
   languageName: unknown
   linkType: soft
 
@@ -14018,7 +14005,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"typescript@*, typescript@^4.1.5, typescript@^4.2.4, typescript@^4.3.2":
+"typescript@*, typescript@^4.2.4, typescript@^4.3.2":
   version: 4.3.2
   resolution: "typescript@npm:4.3.2"
   bin:
@@ -14028,7 +14015,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@*#builtin<compat/typescript>, typescript@patch:typescript@^4.1.5#builtin<compat/typescript>, typescript@patch:typescript@^4.2.4#builtin<compat/typescript>, typescript@patch:typescript@^4.3.2#builtin<compat/typescript>":
+"typescript@patch:typescript@*#builtin<compat/typescript>, typescript@patch:typescript@^4.2.4#builtin<compat/typescript>, typescript@patch:typescript@^4.3.2#builtin<compat/typescript>":
   version: 4.3.2
   resolution: "typescript@patch:typescript@npm%3A4.3.2#builtin<compat/typescript>::version=4.3.2&hash=ddfc1b"
   bin:
